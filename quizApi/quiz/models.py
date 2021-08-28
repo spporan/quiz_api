@@ -44,7 +44,7 @@ class Question(Updated):
     )
 
     TYPE = (
-        (0,_('Multiple Choice'))
+        (0, _('Multiple Choice')),
     )
 
     quiz = models.ForeignKey(
