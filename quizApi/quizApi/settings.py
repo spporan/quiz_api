@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-#0i)8e!d2@$fhjexhx$_n&-@ge5de=z+rn%r3u8a)6v09n@d%6'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -86,7 +86,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'quizdb',
         'USER': 'postgres',
-        'PASSWORD': 'admin', ## Your database master password
+        'PASSWORD': '', ## Your database master password
         'HOST' : 'localhost',
         'PORT' : '5432'
     }
